@@ -199,6 +199,5 @@ def activityPage(request):
     context = {'room_messages': room_messages}
     return render(request, 'base/activity.html', context)
 
-# Stopped video at 6:40:12
 
 
